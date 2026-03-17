@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- EMBED font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400&family=Sen:wght@700&display=swap"
+        rel="stylesheet">
+    <!-- add favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="./favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!-- reset -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <!-- base style (colors, header, footer) -->
+    <link rel="stylesheet" href="./css/product.css">
+    <!-- detail page style -->
+    <link rel="stylesheet" href="./css/product-detail.css">
+    <title>Product Detail - Laptop MacBook Air M2</title>
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header">
+        <div class="container">
+            <div class="header__main">
+                <!-- logo -->
+                <a href="./index.html"><img src="./img/logo.svg" alt="Lesson." class="logo"></a>
+                <!-- nav -->
+                <nav class="header__nav">
+                    <ul class="header__list">
+                        <li class="header__item"><a href="./index.html">Home</a></li>
+                        <li class="header__item"><a href="./product.html">Product</a></li>
+                    </ul>
+                </nav>
+                <!-- cta action -->
+                <a href="#!" class="btn header__action--login">Log In</a>
+                <a href="#!" class="btn header__action--signup">Sign Up</a>
+            </div>
+        </div>
+    </header>
+    <!-- main -->
+    <main class="product-detail">
+        <div class="container">
+
+            <!-- breadcrumb -->
+            <nav class="product-detail__breadcrumb">
+                <a href="./index.html" class="product-detail__breadcrumb-link">Home</a>
+                <span class="product-detail__breadcrumb-separator">/</span>
+                <a href="./product.html" class="product-detail__breadcrumb-link">Sản phẩm</a>
+                <span class="product-detail__breadcrumb-separator">/</span>
+                <span class="product-detail__breadcrumb-current">Laptop MacBook Air M2</span>
+            </nav>
+
+            <div class="product-detail__wrapper">
+
+                <!-- LEFT -->
+                <section class="product-detail__media">
+                    <img src="./img/product-1.jpg" alt="Laptop MacBook Air M2" class="product-detail__img">
+                </section>
+
+                <!-- RIGHT -->
+                <section class="product-detail__content">
+
+                    <h1 class="product-detail__title">
+                        Laptop MacBook Air M2
+                    </h1>
+
+                    <div class="product-detail__rating">
+                        <img src="./img/Star.svg" alt="" aria-hidden="true">
+                        <span>4.5</span>
+                    </div>
+
+                    <p class="product-detail__price">
+                        29.990.000₫
+                    </p>
+
+                    <p class="product-detail__desc">
+                        Laptop MacBook Air M2 mỏng nhẹ, hiệu năng mạnh mẽ, phù hợp cho học tập và làm việc văn phòng
+                        hằng ngày.
+                    </p>
+
+                    <!-- action -->
+                    <form class="product-detail__actions" action="#!" method="post">
+                        <label class="product-detail__quantity-label" for="product-quantity">Số lượng</label>
+                        <input class="product-detail__quantity-input" id="product-quantity" name="quantity" type="number" value="1" min="1" required>
+                        <button class="btn product-detail__btn" type="submit">Mua ngay</button>
+                    </form>
+
+                </section>
+
+            </div>
+        </div>
+    </main>
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__row">
+                <!-- column 1 -->
+                <div class="footer__column">
+                    <img src="./img/logo.svg" alt="Lesson." class="footer__logo">
+                    <p class="footer__desc">Cửa hàng của chúng tôi cung cấp các sản phẩm
+                        điện tử, đồ gia dụng và thiết bị chăm sóc cá nhân
+                        chất lượng với giá cả hợp lý. Mang đến cuộc sống
+                        tiện nghi và hiện đại cho mọi gia đình.</p>
+                    <div class="footer__socials">
+                        <a href=""><img src="./img/twitter.svg" alt="" class="icon"></a>
+                        <a href=""><img src="./img//facebook.svg" alt="" class="icon"></a>
+                        <a href=""><img src="./img//Linkedin.svg" alt="" class="icon"></a>
+                        <a href=""><img src="./img//Instagram.svg" alt="" class="icon"></a>
+                    </div>
+                </div>
+                <!-- column 2 -->
+                <div class="footer__column">
+                    <h3 class="footer__column-title">Về chúng tôi</h3>
+                    <ul class="footer__list">
+                        <li><a href="#!">Giới thiệu</a></li>
+                        <li><a href="#!">Danh mục sản phẩm</a></li>
+                        <li><a href="#!">Khuyến mãi</a></li>
+                        <li><a href="#!">Tin tức</a></li>
+                    </ul>
+                </div>
+                <!-- column 3-->
+                <div class="footer__column">
+                    <h3 class="footer__column-title">Hỗ trợ khách hàng</h3>
+                    <ul class="footer__list">
+                        <li><a href="#!">Câu hỏi thường gặp</a></li>
+                        <li><a href="#!">Chính sách bảo hành</a></li>
+                        <li><a href="#!">Chính sách đổi trả</a></li>
+                        <li><a href="#!">Liên hệ</a></li>
+                    </ul>
+                </div>
+                <!-- column 4 -->
+                <div class="footer__column">
+                    <h3 class="footer__column-title">Thông tin liên hệ</h3>
+                    <ul class="footer__list">
+                        <li><a href="#!"><strong>Địa chỉ:</strong>123 Nguyễn Văn A, Quận 1, TP. Hồ Chí Minh</a></li>
+                        <li><a href="#!"><strong>Email:</strong> support@shoponline.vn</a></li>
+                        <li><a href="#!"><strong>Điện thoại:</strong> 0901 234 567</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__copyright">
+                <p>Copyright ©2022 webdesign.gdn All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

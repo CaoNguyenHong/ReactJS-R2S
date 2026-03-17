@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- EMBED font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400&family=Sen:wght@700&display=swap"
+        rel="stylesheet">
+    <!-- add favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="./favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!-- reset -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <!-- style -->
+    <link rel="stylesheet" href="./css/product.css">
+    <title>Product-list</title>
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header">
+        <div class="container">
+            <div class="header__main">
+                <!-- logo -->
+                <a href="./index.html"><img src="./img/logo.svg" alt="Lesson." class="logo"></a>
+                <!-- nav -->
+                <nav class="header__nav">
+                    <ul class="header__list">
+                        <li class="header__item"><a href="./index.html">Home</a></li>
+                        <li class="header__item"><a href="./product.html">Product</a></li>
+                    </ul>
+                </nav>
+                <!-- cta action -->
+                <a href="#!" class="btn header__action--login">Log In</a>
+                <a href="#!" class="btn header__action--signup">Sign Up</a>
+            </div>
+        </div>
+    </header>
+    <!-- main -->
+    <main>
+        <div class="container">
+            <h1 class="main__title">Danh sách sản phẩm</h1>
+            <div class="main__product-list">
+                <!-- item1   -->
+                <div class="main__product-card-item">
+                    <a href="./product-detail.html"><img src="./img/product-1.jpg" alt="Laptop MacBook Air M2"
+                            class="thumb"></a>
+                    <div class="info">
+                        <div class="head">
+                            <h3 class="title"><a class="line-clamp break-all" href="./product-detail.html">Laptop
+                                    MacBook Air M2</a>
+                            </h3>
+                            <div class="main__product-rating">
+                                <img src="./img/Star.svg" alt="" class="star">
+                                <span class="value">4.5</span>
+                            </div>
+                        </div>
+                        <p class="desc line-clamp break-all line-2"> Laptop mỏng nhẹ, hiệu năng mạnh mẽ, phù hợp cho
+                            học tập và làm việc.</p>
+                        <div class="main__product-card-foot">
+                            <span class="price">29.990.000₫</span>
+                            <a href="./product-detail.html">
+                                <button class="btn btn-product" type="button">Mua ngay</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- item 2 -->
+                <div class="main__product-card-item">
+                    <a href="#!"><img src="./img/product-2.jpg" alt="Nồi chiên không dầu 5.2L" class="thumb"></a>
+                    <div class="info">
+                        <div class="head">
+                            <h3 class="title"><a class="line-clamp break-all" href="#!">Nồi chiên không dầu 5.2L</a>
+                            </h3>
+                            <div class="main__product-rating">
+                                <img src="./img/Star.svg" alt="" class="star">
+                                <span class="value">4.5</span>
+                            </div>
+                        </div>
+                        <p class="desc line-clamp break-all line-2">Dung tích lớn, công suất mạnh, giúp nấu ăn nhanh
+                            chóng và ít dầu mỡ.</p>
+                        <div class="main__product-card-foot">
+                            <span class="price">1.290.000₫</span>
+                            <a href="./product-detail.html">
+                                <button class="btn btn-product" type="button">Mua ngay</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- item 3 -->
+                <div class="main__product-card-item">
+                    <a href="#!"><img src="./img/product-3.webp" alt="Ghế massage toàn thân" class="thumb"></a>
+                    <div class="info">
+                        <div class="head">
+                            <h3 class="title"><a class="line-clamp break-all" href="#!">Ghế massage toàn thân</a>
+                            </h3>
+                            <div class="main__product-rating">
+                                <img src="./img/Star.svg" alt="" class="star">
+                                <span class="value">4.5</span>
+                            </div>
+                        </div>
+                        <p class="desc line-clamp break-all line-2">Massage thư giãn toàn thân, giảm căng thẳng và
+                            cải thiện sức khỏe mỗi ngày.</p>
+                        <div class="main__product-card-foot">
+                            <span class="price">25.900.000₫</span>
+                            <a href="./product-detail.html">
+                                <button class="btn btn-product" type="button">Mua ngay</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- item4 -->
+                <div class="main__product-card-item">
+                    <a href="#!"><img src="./img/product-1.jpg" alt="Laptop MacBook Air M2" class="thumb"></a>
+                    <div class="info">
+                        <div class="head">
+                            <h3 class="title"><a class="line-clamp break-all" href="#!">Laptop MacBook Air M2</a>
+                            </h3>
+                            <div class="main__product-rating">
+                                <img src="./img/Star.svg" alt="" class="star">
+                                <span class="value">4.5</span>
+                            </div>
+                        </div>
+                        <p class="desc line-clamp break-all line-2"> Laptop mỏng nhẹ, hiệu năng mạnh mẽ, phù hợp cho
+                            học tập và làm việc.</p>
+                        <div class="main__product-card-foot">
+                            <span class="price">29.990.000₫</span>
+                            <a href="./product-detail.html">
+                                <button class="btn btn-product" type="button">Mua ngay</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- item 5 -->
+                <div class="main__product-card-item">
+                    <a href="#!"><img src="./img/product-2.jpg" alt="Nồi chiên không dầu 5.2L" class="thumb"></a>
+                    <div class="info">
+                        <div class="head">
+                            <h3 class="title"><a class="line-clamp break-all" href="#!">Nồi chiên không dầu 5.2L</a>
+                            </h3>
+                            <div class="main__product-rating">
+                                <img src="./img/Star.svg" alt="" class="star">
+                                <span class="value">4.5</span>
+                            </div>
+                        </div>
+                        <p class="desc line-clamp break-all line-2">Dung tích lớn, công suất mạnh, giúp nấu ăn nhanh
+                            chóng và ít dầu mỡ.</p>
+                        <div class="main__product-card-foot">
+                            <span class="price">1.290.000₫</span>
+                            <a href="./product-detail.html">
+                                <button class="btn btn-product" type="button">Mua ngay</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- item 6 -->
+                <div class="main__product-card-item">
+                    <a href="#!"><img src="./img/product-3.webp" alt="Ghế massage toàn thân" class="thumb"></a>
+                    <div class="info">
+                        <div class="head">
+                            <h3 class="title"><a class="line-clamp break-all" href="#!">Ghế massage toàn thân</a>
+                            </h3>
+                            <div class="main__product-rating">
+                                <img src="./img/Star.svg" alt="" class="star">
+                                <span class="value">4.5</span>
+                            </div>
+                        </div>
+                        <p class="desc line-clamp break-all line-2">Massage thư giãn toàn thân, giảm căng thẳng và
+                            cải thiện sức khỏe mỗi ngày.</p>
+                        <div class="main__product-card-foot">
+                            <span class="price">25.900.000₫</span>
+                            <a href="./product-detail.html">
+                                <button class="btn btn-product" type="button">Mua ngay</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- item 7 -->
+                <div class="main__product-card-item">
+                    <a href="#!"><img src="./img/product-2.jpg" alt="Nồi chiên không dầu 5.2L" class="thumb"></a>
+                    <div class="info">
+                        <div class="head">
+                            <h3 class="title"><a class="line-clamp break-all" href="#!">Nồi chiên không dầu 5.2L</a>
+                            </h3>
+                            <div class="main__product-rating">
+                                <img src="./img/Star.svg" alt="" class="star">
+                                <span class="value">4.5</span>
+                            </div>
+                        </div>
+                        <p class="desc line-clamp break-all line-2">Dung tích lớn, công suất mạnh, giúp nấu ăn nhanh
+                            chóng và ít dầu mỡ.</p>
+                        <div class="main__product-card-foot">
+                            <span class="price">1.290.000₫</span>
+                            <a href="./product-detail.html">
+                                <button class="btn btn-product" type="button">Mua ngay</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- item 8 -->
+                <div class="main__product-card-item">
+                    <a href="#!"><img src="./img/product-3.webp" alt="Ghế massage toàn thân" class="thumb"></a>
+                    <div class="info">
+                        <div class="head">
+                            <h3 class="title"><a class="line-clamp break-all" href="#!">Ghế massage toàn thân</a>
+                            </h3>
+                            <div class="main__product-rating">
+                                <img src="./img/Star.svg" alt="" class="star">
+                                <span class="value">4.5</span>
+                            </div>
+                        </div>
+                        <p class="desc line-clamp break-all line-2">Massage thư giãn toàn thân, giảm căng thẳng và
+                            cải thiện sức khỏe mỗi ngày.</p>
+                        <div class="main__product-card-foot">
+                            <span class="price">25.900.000₫</span>
+                            <a href="./product-detail.html">
+                                <button class="btn btn-product" type="button">Mua ngay</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__row">
+                <!-- column 1 -->
+                <div class="footer__column">
+                    <img src="./img/logo.svg" alt="Lesson." class="footer__logo">
+                    <p class="footer__desc">Cửa hàng của chúng tôi cung cấp các sản phẩm
+                        điện tử, đồ gia dụng và thiết bị chăm sóc cá nhân
+                        chất lượng với giá cả hợp lý. Mang đến cuộc sống
+                        tiện nghi và hiện đại cho mọi gia đình.</p>
+                    <div class="footer__socials">
+                        <a href=""><img src="./img/twitter.svg" alt="" class="icon"></a>
+                        <a href=""><img src="./img//facebook.svg" alt="" class="icon"></a>
+                        <a href=""><img src="./img//Linkedin.svg" alt="" class="icon"></a>
+                        <a href=""><img src="./img//Instagram.svg" alt="" class="icon"></a>
+                    </div>
+                </div>
+                <!-- column 2 -->
+                <div class="footer__column">
+                    <h3 class="footer__column-title">Về chúng tôi</h3>
+                    <ul class="footer__list">
+                        <li><a href="#!">Giới thiệu</a></li>
+                        <li><a href="#!">Danh mục sản phẩm</a></li>
+                        <li><a href="#!">Khuyến mãi</a></li>
+                        <li><a href="#!">Tin tức</a></li>
+                    </ul>
+                </div>
+                <!-- column 3-->
+                <div class="footer__column">
+                    <h3 class="footer__column-title">Hỗ trợ khách hàng</h3>
+                    <ul class="footer__list">
+                        <li><a href="#!">Câu hỏi thường gặp</a></li>
+                        <li><a href="#!">Chính sách bảo hành</a></li>
+                        <li><a href="#!">Chính sách đổi trả</a></li>
+                        <li><a href="#!">Liên hệ</a></li>
+                    </ul>
+                </div>
+                <!-- column 4 -->
+                <div class="footer__column">
+                    <h3 class="footer__column-title">Thông tin liên hệ</h3>
+                    <ul class="footer__list">
+                        <li><a href="#!"><strong>Địa chỉ:</strong>123 Nguyễn Văn A, Quận 1, TP. Hồ Chí Minh</a></li>
+                        <li><a href="#!"><strong>Email:</strong> support@shoponline.vn</a></li>
+                        <li><a href="#!"><strong>Điện thoại:</strong> 0901 234 567</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__copyright">
+                <p>Copyright ©2022 webdesign.gdn All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
